@@ -1,0 +1,477 @@
+[
+  {
+    "coord": {
+      "lon": 105.1667,
+      "lat": 10.5
+    },
+    "weather": [
+      {
+        "id": 803,
+        "main": "Clouds",
+        "description": "mây cụm",
+        "icon": "04n"
+      }
+    ],
+    "base": "stations",
+    "main": {
+      "temp": 26.96,
+      "feels_like": 29.65,
+      "temp_min": 26.96,
+      "temp_max": 26.96,
+      "pressure": 1011,
+      "humidity": 80,
+      "sea_level": 1011,
+      "grnd_level": 1010
+    },
+    "visibility": 10000,
+    "wind": {
+      "speed": 2.16,
+      "deg": 231,
+      "gust": 2.75
+    },
+    "clouds": {
+      "all": 84
+    },
+    "dt": 1748703001,
+    "sys": {
+      "country": "VN",
+      "sunrise": 1748644585,
+      "sunset": 1748690274
+    },
+    "timezone": 25200,
+    "id": 1594446,
+    "name": "An Giang",
+    "cod": 200,
+    "fetched_at": "2025-05-31 21:53:49",
+    "location": "An Giang, VN"
+  },
+  {
+    "coord": {
+      "lon": 105.8412,
+      "lat": 21.0245
+    },
+    "weather": [
+      {
+        "id": 803,
+        "main": "Clouds",
+        "description": "mây cụm",
+        "icon": "04n"
+      }
+    ],
+    "base": "stations",
+    "main": {
+      "temp": 29,
+      "feels_like": 35.41,
+      "temp_min": 29,
+      "temp_max": 29,
+      "pressure": 1002,
+      "humidity": 83,
+      "sea_level": 1002,
+      "grnd_level": 1001
+    },
+    "visibility": 10000,
+    "wind": {
+      "speed": 4.62,
+      "deg": 138,
+      "gust": 9.96
+    },
+    "clouds": {
+      "all": 64
+    },
+    "dt": 1748703439,
+    "sys": {
+      "type": 1,
+      "id": 9308,
+      "country": "VN",
+      "sunrise": 1748643301,
+      "sunset": 1748691234
+    },
+    "timezone": 25200,
+    "id": 1581130,
+    "name": "Hà Nội",
+    "cod": 200,
+    "fetched_at": "2025-05-31 22:00:24",
+    "location": "Hanoi, VN"
+  },
+  {
+    "coord": {
+      "lon": 108.8,
+      "lat": 15.1167
+    },
+    "weather": [
+      {
+        "id": 803,
+        "main": "Clouds",
+        "description": "mây cụm",
+        "icon": "04d"
+      }
+    ],
+    "base": "stations",
+    "main": {
+      "temp": 39.3,
+      "feels_like": 42.21,
+      "temp_min": 39.3,
+      "temp_max": 39.3,
+      "pressure": 1003,
+      "humidity": 31,
+      "sea_level": 1003,
+      "grnd_level": 993
+    },
+    "visibility": 10000,
+    "wind": {
+      "speed": 1.16,
+      "deg": 20,
+      "gust": 2.56
+    },
+    "clouds": {
+      "all": 70
+    },
+    "dt": 1748753000,
+    "sys": {
+      "country": "VN",
+      "sunrise": 1748729636,
+      "sunset": 1748776297
+    },
+    "timezone": 25200,
+    "id": 1568770,
+    "name": "Thành phố Quảng Ngãi",
+    "cod": 200,
+    "fetched_at": "2025-06-01 11:43:20",
+    "location": "Quang Ngai, VN"
+  },
+  {
+    "coord": {
+      "lon": 108.4419,
+      "lat": 11.9465
+    },
+    "weather": [
+      {
+        "id": 803,
+        "main": "Clouds",
+        "description": "mây cụm",
+        "icon": "04d"
+      }
+    ],
+    "base": "stations",
+    "main": {
+      "temp": 24.18,
+      "feels_like": 24.25,
+      "temp_min": 24.18,
+      "temp_max": 24.18,
+      "pressure": 1011,
+      "humidity": 61,
+      "sea_level": 1011,
+      "grnd_level": 856
+    },
+    "visibility": 10000,
+    "wind": {
+      "speed": 4.64,
+      "deg": 290,
+      "gust": 8.08
+    },
+    "clouds": {
+      "all": 56
+    },
+    "dt": 1748752900,
+    "sys": {
+      "country": "VN",
+      "sunrise": 1748730052,
+      "sunset": 1748776052
+    },
+    "timezone": 25200,
+    "id": 1584071,
+    "name": "Ðà Lạt",
+    "cod": 200,
+    "fetched_at": "2025-06-01 11:43:25",
+    "location": "Da Lat, VN"
+  },
+  {
+    "coord": {
+      "lon": 105.15,
+      "lat": 9.1769
+    },
+    "weather": [
+      {
+        "id": 804,
+        "main": "Clouds",
+        "description": "mây đen u ám",
+        "icon": "04d"
+      }
+    ],
+    "base": "stations",
+    "main": {
+      "temp": 34.1,
+      "feels_like": 37,
+      "temp_min": 34.1,
+      "temp_max": 34.1,
+      "pressure": 1009,
+      "humidity": 45,
+      "sea_level": 1009,
+      "grnd_level": 1009
+    },
+    "visibility": 10000,
+    "wind": {
+      "speed": 3.47,
+      "deg": 254,
+      "gust": 4.01
+    },
+    "clouds": {
+      "all": 95
+    },
+    "dt": 1748753008,
+    "sys": {
+      "country": "VN",
+      "sunrise": 1748731124,
+      "sunset": 1748776561
+    },
+    "timezone": 25200,
+    "id": 1586443,
+    "name": "Ca Mau",
+    "cod": 200,
+    "fetched_at": "2025-06-01 11:43:29",
+    "location": "Ca Mau, VN"
+  },
+  {
+    "coord": {
+      "lon": 106.1667,
+      "lat": 10.6667
+    },
+    "weather": [
+      {
+        "id": 804,
+        "main": "Clouds",
+        "description": "mây đen u ám",
+        "icon": "04d"
+      }
+    ],
+    "base": "stations",
+    "main": {
+      "temp": 33.03,
+      "feels_like": 37.25,
+      "temp_min": 33.03,
+      "temp_max": 33.03,
+      "pressure": 1009,
+      "humidity": 53,
+      "sea_level": 1009,
+      "grnd_level": 1008
+    },
+    "visibility": 10000,
+    "wind": {
+      "speed": 4.92,
+      "deg": 253,
+      "gust": 6.15
+    },
+    "clouds": {
+      "all": 92
+    },
+    "dt": 1748752835,
+    "sys": {
+      "country": "VN",
+      "sunrise": 1748730729,
+      "sunset": 1748776467
+    },
+    "timezone": 25200,
+    "id": 1575788,
+    "name": "Long An",
+    "cod": 200,
+    "fetched_at": "2025-06-01 11:43:33",
+    "location": "Long An, VN"
+  },
+  {
+    "coord": {
+      "lon": 109.0797,
+      "lat": 14.2972
+    },
+    "weather": [
+      {
+        "id": 804,
+        "main": "Clouds",
+        "description": "mây đen u ám",
+        "icon": "04d"
+      }
+    ],
+    "base": "stations",
+    "main": {
+      "temp": 30.39,
+      "feels_like": 33.81,
+      "temp_min": 30.39,
+      "temp_max": 30.39,
+      "pressure": 1004,
+      "humidity": 61,
+      "sea_level": 1004,
+      "grnd_level": 995
+    },
+    "visibility": 10000,
+    "wind": {
+      "speed": 5.32,
+      "deg": 245,
+      "gust": 12.15
+    },
+    "clouds": {
+      "all": 99
+    },
+    "dt": 1748752922,
+    "sys": {
+      "country": "VN",
+      "sunrise": 1748729655,
+      "sunset": 1748776144
+    },
+    "timezone": 25200,
+    "id": 1587871,
+    "name": "Binh Duong",
+    "cod": 200,
+    "fetched_at": "2025-06-01 11:43:36",
+    "location": "Binh Duong, VN"
+  },
+  {
+    "coord": {
+      "lon": 107.6,
+      "lat": 16.4667
+    },
+    "weather": [
+      {
+        "id": 801,
+        "main": "Clouds",
+        "description": "mây thưa",
+        "icon": "02n"
+      }
+    ],
+    "base": "stations",
+    "main": {
+      "temp": 33.06,
+      "feels_like": 35.31,
+      "temp_min": 33.06,
+      "temp_max": 33.06,
+      "pressure": 1003,
+      "humidity": 46,
+      "sea_level": 1003,
+      "grnd_level": 1002
+    },
+    "visibility": 10000,
+    "wind": {
+      "speed": 2.57,
+      "deg": 230
+    },
+    "clouds": {
+      "all": 20
+    },
+    "dt": 1748780509,
+    "sys": {
+      "type": 1,
+      "id": 9310,
+      "country": "VN",
+      "sunrise": 1748729779,
+      "sunset": 1748776730
+    },
+    "timezone": 25200,
+    "id": 1580240,
+    "name": "Huế",
+    "cod": 200,
+    "fetched_at": "2025-06-01 19:22:34",
+    "location": "Hue, VN"
+  },
+  {
+    "coord": {
+      "lon": 106.6667,
+      "lat": 10.75
+    },
+    "weather": [
+      {
+        "id": 201,
+        "main": "Thunderstorm",
+        "description": "giông bão và Mưa",
+        "icon": "11n"
+      },
+      {
+        "id": 501,
+        "main": "Rain",
+        "description": "mưa vừa",
+        "icon": "10n"
+      }
+    ],
+    "base": "stations",
+    "main": {
+      "temp": 24.01,
+      "feels_like": 25.08,
+      "temp_min": 24.01,
+      "temp_max": 24.01,
+      "pressure": 1009,
+      "humidity": 100,
+      "sea_level": 1009,
+      "grnd_level": 1008
+    },
+    "visibility": 5000,
+    "wind": {
+      "speed": 9.77,
+      "deg": 270,
+      "gust": 15.43
+    },
+    "rain": {
+      "1h": 3.79
+    },
+    "clouds": {
+      "all": 75
+    },
+    "dt": 1748781707,
+    "sys": {
+      "type": 1,
+      "id": 9314,
+      "country": "VN",
+      "sunrise": 1748730601,
+      "sunset": 1748776356
+    },
+    "timezone": 25200,
+    "id": 1566083,
+    "name": "Thành phố Hồ Chí Minh",
+    "cod": 200,
+    "fetched_at": "2025-06-01 19:45:50",
+    "location": "Ho Chi Minh City, VN"
+  },
+  {
+    "coord": {
+      "lon": 108.2208,
+      "lat": 16.0678
+    },
+    "weather": [
+      {
+        "id": 800,
+        "main": "Clear",
+        "description": "bầu trời quang đãng",
+        "icon": "01n"
+      }
+    ],
+    "base": "stations",
+    "main": {
+      "temp": 29.99,
+      "feels_like": 34.08,
+      "temp_min": 29.99,
+      "temp_max": 29.99,
+      "pressure": 1004,
+      "humidity": 66,
+      "sea_level": 1004,
+      "grnd_level": 1000
+    },
+    "visibility": 10000,
+    "wind": {
+      "speed": 0.51,
+      "deg": 0
+    },
+    "clouds": {
+      "all": 0
+    },
+    "dt": 1748781901,
+    "sys": {
+      "type": 1,
+      "id": 9306,
+      "country": "VN",
+      "sunrise": 1748729673,
+      "sunset": 1748776538
+    },
+    "timezone": 25200,
+    "id": 1583992,
+    "name": "Đà Nẵng",
+    "cod": 200,
+    "fetched_at": "2025-06-01 19:46:06",
+    "location": "Da Nang, VN"
+  }
+]

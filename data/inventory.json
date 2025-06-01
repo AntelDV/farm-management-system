@@ -1,0 +1,246 @@
+{
+  "inventory": [
+    {
+      "id": 1,
+      "name": "Phân NPK 20-20-15",
+      "quantity": 2000,
+      "current_quantity": 1500,
+      "unit": "kg",
+      "unit_price": 18000,
+      "supplier": 1,
+      "notes": "Phân bón tổng hợp cho cây trồng",
+      "created_at": "2025-01-05 08:00:00"
+    },
+    {
+      "id": 2,
+      "name": "Thức ăn bò sữa",
+      "quantity": 3000,
+      "current_quantity": 2200,
+      "unit": "kg",
+      "unit_price": 22000,
+      "supplier": 2,
+      "notes": "Thức ăn công nghiệp cho bò sữa",
+      "created_at": "2025-01-10 09:15:00"
+    },
+    {
+      "id": 3,
+      "name": "Thuốc kháng sinh Terramycin",
+      "quantity": 100,
+      "current_quantity": 75,
+      "unit": "lọ",
+      "unit_price": 120000,
+      "supplier": 3,
+      "notes": "Điều trị bệnh đường hô hấp",
+      "created_at": "2025-01-15 10:30:00"
+    },
+    {
+      "id": 4,
+      "name": "Vaccine tụ huyết trùng",
+      "quantity": 50,
+      "current_quantity": 30,
+      "unit": "liều",
+      "unit_price": 25000,
+      "supplier": 3,
+      "notes": "Phòng bệnh cho gia súc",
+      "created_at": "2025-01-20 11:45:00"
+    },
+    {
+      "id": 6,
+      "name": "Dây tưới nhỏ giọt",
+      "quantity": 5000,
+      "current_quantity": 3500,
+      "unit": "m",
+      "unit_price": 5000,
+      "supplier": 5,
+      "notes": "Dây tưới công nghệ Israel",
+      "created_at": "2025-02-01 14:15:00"
+    },
+    {
+      "id": 7,
+      "name": "Thức ăn heo con",
+      "quantity": 1500,
+      "current_quantity": 1000,
+      "unit": "kg",
+      "unit_price": 25000,
+      "supplier": 2,
+      "notes": "Thức ăn cho heo giai đoạn 1-2 tháng",
+      "created_at": "2025-02-05 15:30:00"
+    },
+    {
+      "id": 8,
+      "name": "Phân hữu cơ vi sinh",
+      "quantity": 1000,
+      "current_quantity": 800,
+      "unit": "kg",
+      "unit_price": 12000,
+      "supplier": 1,
+      "notes": "Phân bón hữu cơ chất lượng cao",
+      "created_at": "2025-02-10 16:45:00"
+    },
+    {
+      "id": 9,
+      "name": "Vaccine Newcastle",
+      "quantity": 100,
+      "current_quantity": 60,
+      "unit": "liều",
+      "unit_price": 18000,
+      "supplier": 3,
+      "notes": "Phòng bệnh cho gia cầm",
+      "created_at": "2025-02-15 08:00:00"
+    },
+    {
+      "id": 10,
+      "name": "Bình phun thuốc",
+      "quantity": 10,
+      "current_quantity": 6,
+      "unit": "cái",
+      "unit_price": 350000,
+      "supplier": 6,
+      "notes": "Bình phun động cơ 25 lít",
+      "created_at": "2025-02-20 09:15:00"
+    },
+    {
+      "id": 11,
+      "name": "Thức ăn gà đẻ",
+      "quantity": 2000,
+      "current_quantity": 1500,
+      "unit": "kg",
+      "unit_price": 20000,
+      "supplier": 2,
+      "notes": "Thức ăn chuyên dụng cho gà đẻ trứng",
+      "created_at": "2025-02-25 10:30:00"
+    },
+    {
+      "id": 13,
+      "name": "Lưới che nắng",
+      "quantity": 1000,
+      "current_quantity": 700,
+      "unit": "m2",
+      "unit_price": 12000,
+      "supplier": 5,
+      "notes": "Lưới che nắng 70%",
+      "created_at": "2025-03-05 13:00:00"
+    },
+    {
+      "id": 14,
+      "name": "Vitamin tổng hợp",
+      "quantity": 200,
+      "current_quantity": 150,
+      "unit": "lọ",
+      "unit_price": 95000,
+      "supplier": 3,
+      "notes": "Bổ sung vitamin cho gia súc",
+      "created_at": "2025-03-10 14:15:00"
+    },
+    {
+      "id": 16,
+      "name": "Bạt lót chuồng",
+      "quantity": 50,
+      "current_quantity": 30,
+      "unit": "cuộn",
+      "unit_price": 250000,
+      "supplier": 6,
+      "notes": "Bạt lót chuồng heo, bò",
+      "created_at": "2025-03-20 16:45:00"
+    },
+    {
+      "id": 17,
+      "name": "Thức ăn dê",
+      "quantity": 1000,
+      "current_quantity": 800,
+      "unit": "kg",
+      "unit_price": 18000,
+      "supplier": 2,
+      "notes": "Thức ăn chuyên dụng cho dê",
+      "created_at": "2025-03-25 08:00:00"
+    },
+    {
+      "id": 20,
+      "name": "Thức ăn vịt",
+      "quantity": 1500,
+      "current_quantity": 1200,
+      "unit": "kg",
+      "unit_price": 15000,
+      "supplier": 2,
+      "notes": "Thức ăn cho vịt các lứa tuổi",
+      "created_at": "2025-04-10 11:45:00"
+    },
+    {
+      "id": 21,
+      "name": "Dụng cụ thú y",
+      "quantity": 10,
+      "current_quantity": 8,
+      "unit": "bộ",
+      "unit_price": 350000,
+      "supplier": 3,
+      "notes": "Bộ dụng cụ khám chữa bệnh gia súc",
+      "created_at": "2025-04-15 13:00:00"
+    },
+    {
+      "id": 22,
+      "name": "Chế phẩm sinh học",
+      "quantity": 30,
+      "current_quantity": 20,
+      "unit": "chai",
+      "unit_price": 150000,
+      "supplier": 1,
+      "notes": "Chế phẩm EM xử lý môi trường",
+      "created_at": "2025-04-20 14:15:00"
+    },
+    {
+      "id": 23,
+      "name": "Bình ắc quy phun thuốc",
+      "quantity": 5,
+      "current_quantity": 3,
+      "unit": "cái",
+      "unit_price": 850000,
+      "supplier": 6,
+      "notes": "Bình phun thuốc điện 16 lít",
+      "created_at": "2025-04-25 15:30:00"
+    }
+  ],
+  "suppliers": [
+    {
+      "id": 1,
+      "name": "Công ty Phân bón Việt Nhật",
+      "contact": "0909123456",
+      "notes": "Chuyên cung cấp các loại phân bón",
+      "created_at": "2025-01-01 08:00:00"
+    },
+    {
+      "id": 2,
+      "name": "Công ty Thức ăn chăn nuôi PROCON",
+      "contact": "0918234567",
+      "notes": "Cung cấp thức ăn gia súc, gia cầm",
+      "created_at": "2025-01-01 09:15:00"
+    },
+    {
+      "id": 3,
+      "name": "Công ty Thuốc thú y NAVETCO",
+      "contact": "0987654321",
+      "notes": "Chuyên thuốc và vaccine thú y",
+      "created_at": "2025-01-05 10:30:00"
+    },
+    {
+      "id": 5,
+      "name": "Công ty Tưới tự động ISRAEL",
+      "contact": "0947234567",
+      "notes": "Hệ thống tưới nhỏ giọt",
+      "created_at": "2025-01-15 13:00:00"
+    },
+    {
+      "id": 6,
+      "name": "Công ty Thiết bị nông nghiệp",
+      "contact": "0976345678",
+      "notes": "Dụng cụ và thiết bị nông nghiệp",
+      "created_at": "2025-01-20 14:15:00"
+    },
+    {
+      "id": 8,
+      "name": "Công ty Vật tư tổng hợp",
+      "contact": "0914567890",
+      "notes": "Cung cấp đa dạng vật tư nông nghiệp",
+      "created_at": "2025-02-01 16:45:00"
+    }
+  ]
+}

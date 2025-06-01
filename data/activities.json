@@ -1,0 +1,223 @@
+[
+  {
+    "id": 1,
+    "name": "Thu hoạch lúa vụ đông xuân",
+    "type": "Nông nghiệp",
+    "date": "15/01/2025",
+    "status": "Đã hoàn thành",
+    "responsible": "Nguyễn Văn A",
+    "description": "Thu hoạch 5ha lúa giống ST25",
+    "created_at": "2025-01-10 08:00:00"
+  },
+  {
+    "id": 2,
+    "name": "Tiêm phòng đàn bò",
+    "type": "Chăn nuôi",
+    "date": "20/01/2025",
+    "status": "Đã hoàn thành",
+    "responsible": "Trần Thị B",
+    "description": "Tiêm phòng cho 50 con bò sữa",
+    "created_at": "2025-01-15 09:15:00"
+  },
+  {
+    "id": 3,
+    "name": "Bón phân cho vườn cà phê",
+    "type": "Nông nghiệp",
+    "date": "25/01/2025",
+    "status": "Đang diễn ra",
+    "responsible": "Lê Văn C",
+    "description": "Bón phân hữu cơ cho 10ha cà phê",
+    "created_at": "2025-01-20 07:30:00"
+  },
+  {
+    "id": 4,
+    "name": "Xuất chuồng heo thịt",
+    "type": "Chăn nuôi",
+    "date": "05/02/2025",
+    "status": "Đang lên kế hoạch",
+    "responsible": "Phạm Thị D",
+    "description": "Xuất 30 con heo thịt ra thị trường",
+    "created_at": "2025-01-25 14:20:00"
+  },
+  {
+    "id": 5,
+    "name": "Trồng rau mùa vụ mới",
+    "type": "Nông nghiệp",
+    "date": "15/02/2025",
+    "status": "Đang lên kế hoạch",
+    "responsible": "Hoàng Văn E",
+    "description": "Trồng 2ha rau cải các loại",
+    "created_at": "2025-02-01 10:45:00"
+  },
+  {
+    "id": 6,
+    "name": "Nhập giống gà mới",
+    "type": "Chăn nuôi",
+    "date": "01/03/2025",
+    "status": "Đang lên kế hoạch",
+    "responsible": "Đặng Thị G",
+    "description": "Nhập 500 con gà giống ta",
+    "created_at": "2025-02-15 11:30:00"
+  },
+  {
+    "id": 7,
+    "name": "Thu hoạch cà phê",
+    "type": "Nông nghiệp",
+    "date": "10/03/2025",
+    "status": "Đang lên kế hoạch",
+    "responsible": "Ngô Văn H",
+    "description": "Thu hoạch 10ha cà phê vụ chính",
+    "created_at": "2025-02-20 08:15:00"
+  },
+  {
+    "id": 8,
+    "name": "Kiểm tra sức khỏe đàn bò",
+    "type": "Chăn nuôi",
+    "date": "15/03/2025",
+    "status": "Đang lên kế hoạch",
+    "responsible": "Lý Thị K",
+    "description": "Kiểm tra định kỳ sức khỏe đàn bò",
+    "created_at": "2025-03-01 09:00:00"
+  },
+  {
+    "id": 9,
+    "name": "Trồng cây ăn quả",
+    "type": "Nông nghiệp",
+    "date": "01/04/2025",
+    "status": "Đang lên kế hoạch",
+    "responsible": "Phan Thị M",
+    "description": "Trồng mới 1ha bưởi da xanh",
+    "created_at": "2025-03-15 10:20:00"
+  },
+  {
+    "id": 10,
+    "name": "Xây bể chứa nước",
+    "type": "Xây dựng",
+    "date": "10/04/2025",
+    "status": "Đang lên kế hoạch",
+    "responsible": "Đỗ Văn N",
+    "description": "Xây bể chứa nước 50m3",
+    "created_at": "2025-03-20 08:45:00"
+  },
+  {
+    "id": 11,
+    "name": "Đào tạo kỹ thuật",
+    "type": "Đào tạo",
+    "date": "15/04/2025",
+    "status": "Đang lên kế hoạch",
+    "responsible": "Mai Thị P",
+    "description": "Đào tạo kỹ thuật chăn nuôi bò sữa",
+    "created_at": "2025-04-01 13:15:00"
+  },
+  {
+    "id": 12,
+    "name": "Vệ sinh chuồng trại",
+    "type": "Vệ sinh",
+    "date": "20/04/2025",
+    "status": "Đang lên kế hoạch",
+    "responsible": "Lâm Văn Q",
+    "description": "Tổng vệ sinh toàn bộ chuồng trại",
+    "created_at": "2025-04-05 07:30:00"
+  },
+  {
+    "id": 13,
+    "name": "Kiểm kê cuối tháng",
+    "type": "Quản lý",
+    "date": "30/04/2025",
+    "status": "Đang lên kế hoạch",
+    "responsible": "Hồ Thị R",
+    "description": "Kiểm kê vật tư và sản phẩm",
+    "created_at": "2025-04-20 15:00:00"
+  },
+  {
+    "id": 14,
+    "name": "Thu hoạch rau",
+    "type": "Nông nghiệp",
+    "date": "05/05/2025",
+    "status": "Đang lên kế hoạch",
+    "responsible": "Võ Văn S",
+    "description": "Thu hoạch 2ha rau các loại",
+    "created_at": "2025-04-25 09:45:00"
+  },
+  {
+    "id": 15,
+    "name": "Nhập vật tư",
+    "type": "Quản lý",
+    "date": "10/05/2025",
+    "status": "Đang lên kế hoạch",
+    "responsible": "Châu Thị T",
+    "description": "Nhập phân bón và thuốc BVTV",
+    "created_at": "2025-05-01 11:20:00"
+  },
+  {
+    "id": 16,
+    "name": "Sửa hệ thống tưới",
+    "type": "Bảo trì",
+    "date": "15/05/2025",
+    "status": "Đang lên kế hoạch",
+    "responsible": "Bùi Văn U",
+    "description": "Sửa chữa hệ thống tưới tự động",
+    "created_at": "2025-05-05 14:10:00"
+  },
+  {
+    "id": 17,
+    "name": "Tiêm phòng đợt 2",
+    "type": "Chăn nuôi",
+    "date": "20/05/2025",
+    "status": "Đang lên kế hoạch",
+    "responsible": "Đinh Thị V",
+    "description": "Tiêm phòng định kỳ cho gia súc",
+    "created_at": "2025-05-10 08:30:00"
+  },
+  {
+    "id": 18,
+    "name": "Họp tổng kết",
+    "type": "Quản lý",
+    "date": "25/05/2025",
+    "status": "Đang lên kế hoạch",
+    "responsible": "Trần Văn X",
+    "description": "Họp tổng kết hoạt động tháng 5",
+    "created_at": "2025-05-15 13:00:00"
+  },
+  {
+    "id": 19,
+    "name": "Kiểm tra chất lượng",
+    "type": "Quản lý",
+    "date": "05/06/2025",
+    "status": "Đang lên kế hoạch",
+    "responsible": "Phạm Văn Z",
+    "description": "Kiểm tra chất lượng sản phẩm đầu ra",
+    "created_at": "2025-05-25 09:30:00"
+  },
+  {
+    "id": 20,
+    "name": "Bảo vệ mùa màng",
+    "type": "Nông nghiệp",
+    "date": "10/06/2025",
+    "status": "Đang lên kế hoạch",
+    "responsible": "Hoàng Thị AA",
+    "description": "Phun thuốc phòng trừ sâu bệnh",
+    "created_at": "2025-06-01 07:45:00"
+  },
+  {
+    "id": 21,
+    "name": "Vận chuyển sản phẩm",
+    "type": "Vận chuyển",
+    "date": "15/06/2025",
+    "status": "Đang lên kế hoạch",
+    "responsible": "Lê Văn BB",
+    "description": "Vận chuyển lúa đến nhà máy",
+    "created_at": "2025-06-05 14:50:00"
+  },
+  {
+    "name": "Đánh giá hiệu quả",
+    "type": "Quản lý",
+    "date": "20/06/2025",
+    "responsible": "Vũ Thị CC",
+    "status": "Đã hoàn thành",
+    "description": "Đánh giá hiệu quả sản xuất 6 tháng",
+    "id": 22,
+    "updated_at": "2025-05-28 16:51:03",
+    "created_at": "2025-06-10 10:00:00"
+  }
+]

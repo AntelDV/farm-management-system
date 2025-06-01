@@ -1,0 +1,192 @@
+[
+  {
+    "id": 1,
+    "name": "Bò sữa HF",
+    "type": "Gia súc",
+    "entry_date": "05/01/2025",
+    "quantity": 50,
+    "status": "Khỏe mạnh",
+    "notes": "Giống nhập từ Úc, năng suất sữa cao",
+    "created_at": "2025-01-05 08:00:00"
+  },
+  {
+    "id": 2,
+    "name": "Gà ta thả vườn",
+    "type": "Gia cầm",
+    "entry_date": "10/01/2025",
+    "quantity": 300,
+    "status": "Khỏe mạnh",
+    "notes": "Giống gà địa phương, nuôi thả vườn",
+    "created_at": "2025-01-10 09:15:00"
+  },
+  {
+    "id": 3,
+    "name": "Heo thịt",
+    "type": "Gia súc",
+    "entry_date": "15/01/2025",
+    "quantity": 40,
+    "status": "Đang điều trị",
+    "notes": "5 con bị tiêu chảy, đang cách ly",
+    "created_at": "2025-01-15 10:30:00"
+  },
+  {
+    "id": 4,
+    "name": "Vịt cỏ",
+    "type": "Gia cầm",
+    "entry_date": "20/01/2025",
+    "quantity": 200,
+    "status": "Khỏe mạnh",
+    "notes": "Nuôi thả đồng, chuẩn bị xuất chuồng",
+    "created_at": "2025-01-20 11:45:00"
+  },
+  {
+    "id": 5,
+    "name": "Dê sữa",
+    "type": "Gia súc",
+    "entry_date": "25/01/2025",
+    "quantity": 20,
+    "status": "Khỏe mạnh",
+    "notes": "Giống dê bách thảo, cho sữa chất lượng cao",
+    "created_at": "2025-01-25 13:00:00"
+  },
+  {
+    "id": 6,
+    "name": "Gà Đông Tảo",
+    "type": "Gia cầm",
+    "entry_date": "01/02/2025",
+    "quantity": 50,
+    "status": "Khỏe mạnh",
+    "notes": "Giống gà quý, nuôi bán thương phẩm",
+    "created_at": "2025-02-01 14:15:00"
+  },
+  {
+    "id": 7,
+    "name": "Bò thịt",
+    "type": "Gia súc",
+    "entry_date": "05/02/2025",
+    "quantity": 30,
+    "status": "Khỏe mạnh",
+    "notes": "Giống bò BBB, tăng trưởng nhanh",
+    "created_at": "2025-02-05 15:30:00"
+  },
+  {
+    "id": 8,
+    "name": "Ngỗng",
+    "type": "Gia cầm",
+    "entry_date": "10/02/2025",
+    "quantity": 100,
+    "status": "Khỏe mạnh",
+    "notes": "Nuôi thả đồng, chống cỏ dại",
+    "created_at": "2025-02-10 16:45:00"
+  },
+  {
+    "id": 9,
+    "name": "Cừu",
+    "type": "Gia súc",
+    "entry_date": "15/02/2025",
+    "quantity": 25,
+    "status": "Khỏe mạnh",
+    "notes": "Giống cừu Phan Rang, thích nghi tốt",
+    "created_at": "2025-02-15 08:00:00"
+  },
+  {
+    "id": 10,
+    "name": "Gà tre",
+    "type": "Gia cầm",
+    "entry_date": "20/02/2025",
+    "quantity": 80,
+    "status": "Khỏe mạnh",
+    "notes": "Nuôi làm cảnh và bán giống",
+    "created_at": "2025-02-20 09:15:00"
+  },
+  {
+    "id": 11,
+    "name": "Heo nái",
+    "type": "Gia súc",
+    "entry_date": "25/02/2025",
+    "quantity": 15,
+    "status": "Mang thai",
+    "notes": "10 con đang mang thai, dự kiến đẻ tháng 4",
+    "created_at": "2025-02-25 10:30:00"
+  },
+  {
+    "id": 12,
+    "name": "Bồ câu Pháp",
+    "type": "Gia cầm",
+    "entry_date": "01/03/2025",
+    "quantity": 150,
+    "status": "Khỏe mạnh",
+    "notes": "Nuôi lấy thịt, chuẩn bị xuất chuồng",
+    "created_at": "2025-03-01 11:45:00"
+  },
+  {
+    "id": 13,
+    "name": "Thỏ New Zealand",
+    "type": "Gia súc nhỏ",
+    "entry_date": "05/03/2025",
+    "quantity": 60,
+    "status": "Khỏe mạnh",
+    "notes": "Giống thỏ thịt chất lượng cao",
+    "created_at": "2025-03-05 13:00:00"
+  },
+  {
+    "id": 14,
+    "name": "Gà H'Mông",
+    "type": "Gia cầm",
+    "entry_date": "10/03/2025",
+    "quantity": 70,
+    "status": "Khỏe mạnh",
+    "notes": "Giống gà đặc sản, thịt thơm ngon",
+    "created_at": "2025-03-10 14:15:00"
+  },
+  {
+    "id": 15,
+    "name": "Bê con",
+    "type": "Gia súc",
+    "entry_date": "15/03/2025",
+    "quantity": 12,
+    "status": "Khỏe mạnh",
+    "notes": "Bê sinh tháng 1/2025, đang phát triển tốt",
+    "created_at": "2025-03-15 15:30:00"
+  },
+  {
+    "id": 16,
+    "name": "Vịt trời",
+    "type": "Gia cầm",
+    "entry_date": "20/03/2025",
+    "quantity": 90,
+    "status": "Khỏe mạnh",
+    "notes": "Nuôi thả tự nhiên, thịt săn chắc",
+    "created_at": "2025-03-20 16:45:00"
+  },
+  {
+    "id": 17,
+    "name": "Heo đực giống",
+    "type": "Gia súc",
+    "entry_date": "25/03/2025",
+    "quantity": 5,
+    "status": "Khỏe mạnh",
+    "notes": "Giống heo Landrace, phối giống chất lượng",
+    "created_at": "2025-03-25 08:00:00"
+  },
+  {
+    "id": 18,
+    "name": "Gà Ác",
+    "type": "Gia cầm",
+    "entry_date": "01/04/2025",
+    "quantity": 120,
+    "status": "Khỏe mạnh",
+    "notes": "Nuôi làm thuốc và thực phẩm chức năng",
+    "created_at": "2025-04-01 09:15:00"
+  },
+  {
+    "id": 19,
+    "name": "Ngan Pháp",
+    "type": "Gia cầm",
+    "entry_date": "10/04/2025",
+    "quantity": 150,
+    "status": "Khỏe mạnh",
+    "notes": "Giống ngan siêu thịt, tăng trọng nhanh",
+    "created_at": "2025-04-10 11:45:00"
+  }
+]

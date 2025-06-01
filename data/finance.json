@@ -1,0 +1,261 @@
+{
+  "transactions": [
+    {
+      "id": 1,
+      "date": "02/01/2025 09:00",
+      "type": "income",
+      "category": "Bán sản phẩm",
+      "amount": 125000000,
+      "description": "Bán 5 tấn lúa ST25"
+    },
+    {
+      "id": 2,
+      "date": "05/01/2025 14:30",
+      "type": "expense",
+      "category": "Mua thức ăn",
+      "amount": 25000000,
+      "description": "Mua thức ăn cho bò sữa"
+    },
+    {
+      "id": 3,
+      "date": "10/01/2025 11:15",
+      "type": "expense",
+      "category": "Thuốc thú y",
+      "amount": 12000000,
+      "description": "Mua thuốc điều trị heo bệnh"
+    },
+    {
+      "id": 4,
+      "date": "15/01/2025 08:45",
+      "type": "income",
+      "category": "Bán sản phẩm",
+      "amount": 45000000,
+      "description": "Bán 1 tấn cà phê nhân"
+    },
+    {
+      "id": 5,
+      "date": "20/01/2025 13:20",
+      "type": "expense",
+      "category": "Lương nhân viên",
+      "amount": 35000000,
+      "description": "Chi lương tháng 1/2025"
+    },
+    {
+      "id": 6,
+      "date": "25/01/2025 10:30",
+      "type": "expense",
+      "category": "Mua giống",
+      "amount": 18000000,
+      "description": "Mua giống lúa mới"
+    },
+    {
+      "id": 7,
+      "date": "01/02/2025 15:45",
+      "type": "income",
+      "category": "Bán sản phẩm",
+      "amount": 75000000,
+      "description": "Bán 300 con gà thả vườn"
+    },
+    {
+      "id": 8,
+      "date": "05/02/2025 09:15",
+      "type": "expense",
+      "category": "Bảo trì",
+      "amount": 15000000,
+      "description": "Sửa chữa máy cày"
+    },
+    {
+      "id": 9,
+      "date": "10/02/2025 14:00",
+      "type": "expense",
+      "category": "Mua thức ăn",
+      "amount": 20000000,
+      "description": "Mua thức ăn cho heo"
+    },
+    {
+      "id": 10,
+      "date": "15/02/2025 11:30",
+      "type": "income",
+      "category": "Bán sản phẩm",
+      "amount": 32000000,
+      "description": "Bán 2 tấn ngô"
+    },
+    {
+      "id": 11,
+      "date": "20/02/2025 08:15",
+      "type": "expense",
+      "category": "Thuốc BVTV",
+      "amount": 8500000,
+      "description": "Mua thuốc trừ sâu"
+    },
+    {
+      "id": 12,
+      "date": "25/02/2025 13:45",
+      "type": "income",
+      "category": "Trợ cấp",
+      "amount": 10000000,
+      "description": "Trợ cấp phát triển nông nghiệp"
+    },
+    {
+      "id": 13,
+      "date": "01/03/2025 10:00",
+      "type": "expense",
+      "category": "Lương nhân viên",
+      "amount": 35000000,
+      "description": "Chi lương tháng 2/2025"
+    },
+    {
+      "id": 14,
+      "date": "05/03/2025 15:30",
+      "type": "income",
+      "category": "Bán sản phẩm",
+      "amount": 68000000,
+      "description": "Bán 500kg bưởi da xanh"
+    },
+    {
+      "id": 15,
+      "date": "10/03/2025 09:45",
+      "type": "expense",
+      "category": "Mua giống",
+      "amount": 22000000,
+      "description": "Mua giống dưa lưới"
+    },
+    {
+      "id": 16,
+      "date": "15/03/2025 14:15",
+      "type": "expense",
+      "category": "Bảo trì",
+      "amount": 12000000,
+      "description": "Bảo dưỡng hệ thống tưới"
+    },
+    {
+      "id": 17,
+      "date": "20/03/2025 11:00",
+      "type": "income",
+      "category": "Bán sản phẩm",
+      "amount": 42000000,
+      "description": "Bán 1.5 tấn khoai lang"
+    },
+    {
+      "id": 18,
+      "date": "25/03/2025 08:30",
+      "type": "expense",
+      "category": "Thuốc thú y",
+      "amount": 9500000,
+      "description": "Mua vaccine phòng bệnh"
+    },
+    {
+      "id": 19,
+      "date": "01/04/2025 13:15",
+      "type": "income",
+      "category": "Bán sản phẩm",
+      "amount": 55000000,
+      "description": "Bán 200 con vịt cỏ"
+    },
+    {
+      "id": 20,
+      "date": "05/04/2025 10:45",
+      "type": "expense",
+      "category": "Lương nhân viên",
+      "amount": 35000000,
+      "description": "Chi lương tháng 3/2025"
+    },
+    {
+      "id": 21,
+      "date": "10/04/2025 15:00",
+      "type": "expense",
+      "category": "Mua thức ăn",
+      "amount": 18000000,
+      "description": "Mua thức ăn cho gia cầm"
+    },
+    {
+      "id": 22,
+      "date": "15/04/2025 09:30",
+      "type": "income",
+      "category": "Bán sản phẩm",
+      "amount": 38000000,
+      "description": "Bán 1 tấn đậu xanh"
+    },
+    {
+      "id": 23,
+      "date": "20/04/2025 14:45",
+      "type": "expense",
+      "category": "Khác",
+      "amount": 5000000,
+      "description": "Chi phí vận chuyển"
+    },
+    {
+      "id": 24,
+      "date": "25/04/2025 11:15",
+      "type": "income",
+      "category": "Đầu tư",
+      "amount": 200000000,
+      "description": "Vốn đầu tư mở rộng trang trại"
+    },
+    {
+      "id": 25,
+      "date": "01/05/2025 08:00",
+      "type": "expense",
+      "category": "Bảo trì",
+      "amount": 25000000,
+      "description": "Xây dựng chuồng trại mới"
+    },
+    {
+      "id": 26,
+      "date": "05/05/2025 13:30",
+      "type": "income",
+      "category": "Bán sản phẩm",
+      "amount": 62000000,
+      "description": "Bán 400 con gà tre"
+    },
+    {
+      "id": 27,
+      "date": "10/05/2025 10:15",
+      "type": "expense",
+      "category": "Mua giống",
+      "amount": 30000000,
+      "description": "Mua giống bò sữa HF"
+    },
+    {
+      "id": 28,
+      "date": "15/05/2025 15:45",
+      "type": "expense",
+      "category": "Lương nhân viên",
+      "amount": 35000000,
+      "description": "Chi lương tháng 4/2025"
+    },
+    {
+      "id": 29,
+      "date": "20/05/2025 09:00",
+      "type": "income",
+      "category": "Bán sản phẩm",
+      "amount": 48000000,
+      "description": "Bán 2 tấn mía đường"
+    },
+    {
+      "id": 30,
+      "date": "25/05/2025 14:30",
+      "type": "expense",
+      "category": "Thuốc BVTV",
+      "amount": 7500000,
+      "description": "Mua thuốc trừ cỏ"
+    }
+  ],
+  "categories": {
+    "income": [
+      "Bán sản phẩm",
+      "Trợ cấp",
+      "Đầu tư",
+      "Khác"
+    ],
+    "expense": [
+      "Mua giống",
+      "Mua thức ăn",
+      "Lương nhân viên",
+      "Thuốc thú y",
+      "Bảo trì",
+      "Thuốc BVTV",
+      "Khác"
+    ]
+  }
+}

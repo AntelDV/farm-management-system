@@ -1,0 +1,14 @@
+# File cấu hình môi trường
+.env
+config/.env
+
+
+# File thực thi
+*.exe
+dist/
+build/
+
+# Python
+__pycache__/
+*.pyc
+venv/

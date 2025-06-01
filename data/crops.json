@@ -1,0 +1,203 @@
+[
+  {
+    "id": 1,
+    "name": "Lúa ST25",
+    "type": "Lương thực",
+    "planting_date": "10/01/2025",
+    "area": 8.5,
+    "status": "Đang phát triển",
+    "notes": "Giống lúa thơm ngon nhất thế giới",
+    "created_at": "2025-01-05 07:30:00"
+  },
+  {
+    "id": 2,
+    "name": "Cà phê Arabica",
+    "type": "Cây công nghiệp",
+    "planting_date": "15/01/2020",
+    "area": 15.2,
+    "status": "Thu hoạch",
+    "notes": "Vườn cà phê 5 năm tuổi, năng suất cao",
+    "created_at": "2020-01-15 08:45:00"
+  },
+  {
+    "name": "Rau cải xanh",
+    "type": "Rau màu",
+    "planting_date": "20/01/2025",
+    "area": 12.0,
+    "status": "Đang phát triển",
+    "notes": "Trồng theo tiêu chuẩn VietGAP",
+    "id": 3,
+    "updated_at": "2025-05-31 19:01:54",
+    "created_at": "2025-01-15 09:15:00"
+  },
+  {
+    "id": 4,
+    "name": "Bưởi da xanh",
+    "type": "Cây ăn quả",
+    "planting_date": "25/01/2023",
+    "area": 3.5,
+    "status": "Ra hoa",
+    "notes": "Giống bưởi đặc sản miền Tây",
+    "created_at": "2023-01-20 10:30:00"
+  },
+  {
+    "id": 5,
+    "name": "Mía đường",
+    "type": "Cây công nghiệp",
+    "planting_date": "01/02/2025",
+    "area": 12.0,
+    "status": "Đang phát triển",
+    "notes": "Giống mía mới năng suất cao",
+    "created_at": "2025-01-25 11:45:00"
+  },
+  {
+    "id": 6,
+    "name": "Dưa hấu",
+    "type": "Rau màu",
+    "planting_date": "05/02/2025",
+    "area": 2.8,
+    "status": "Đang phát triển",
+    "notes": "Trồng luân canh sau lúa",
+    "created_at": "2025-02-01 13:00:00"
+  },
+  {
+    "id": 7,
+    "name": "Sầu riêng Monthong",
+    "type": "Cây ăn quả",
+    "planting_date": "10/02/2022",
+    "area": 5.5,
+    "status": "Ra hoa",
+    "notes": "Vườn sầu riêng 3 năm tuổi",
+    "created_at": "2022-02-05 14:15:00"
+  },
+  {
+    "id": 8,
+    "name": "Ngô nếp",
+    "type": "Lương thực",
+    "planting_date": "15/02/2025",
+    "area": 4.3,
+    "status": "Đang phát triển",
+    "notes": "Giống ngô lai năng suất cao",
+    "created_at": "2025-02-10 15:30:00"
+  },
+  {
+    "id": 9,
+    "name": "Chè Shan tuyết",
+    "type": "Cây công nghiệp",
+    "planting_date": "20/02/2018",
+    "area": 8.0,
+    "status": "Thu hoạch",
+    "notes": "Vườn chè lâu năm, chất lượng cao",
+    "created_at": "2018-02-15 16:45:00"
+  },
+  {
+    "id": 10,
+    "name": "Thanh long ruột đỏ",
+    "type": "Cây ăn quả",
+    "planting_date": "25/02/2023",
+    "area": 3.2,
+    "status": "Ra hoa",
+    "notes": "Trồng theo công nghệ Israel",
+    "created_at": "2023-02-20 08:00:00"
+  },
+  {
+    "id": 11,
+    "name": "Khoai lang Nhật",
+    "type": "Lương thực",
+    "planting_date": "01/03/2025",
+    "area": 2.5,
+    "status": "Đang phát triển",
+    "notes": "Giống khoai chất lượng cao",
+    "created_at": "2025-02-25 09:15:00"
+  },
+  {
+    "id": 12,
+    "name": "Dâu tây Đà Lạt",
+    "type": "Cây ăn quả",
+    "planting_date": "05/03/2025",
+    "area": 0.8,
+    "status": "Đang phát triển",
+    "notes": "Trồng trong nhà kính",
+    "created_at": "2025-03-01 10:30:00"
+  },
+  {
+    "id": 13,
+    "name": "Cao su",
+    "type": "Cây công nghiệp",
+    "planting_date": "10/03/2017",
+    "area": 20.0,
+    "status": "Khai thác",
+    "notes": "Vườn cây 8 năm tuổi",
+    "created_at": "2017-03-05 11:45:00"
+  },
+  {
+    "id": 14,
+    "name": "Chuối tiêu hồng",
+    "type": "Cây ăn quả",
+    "planting_date": "15/03/2024",
+    "area": 2.0,
+    "status": "Thu hoạch",
+    "notes": "Giống chuối xuất khẩu",
+    "created_at": "2024-03-10 13:00:00"
+  },
+  {
+    "id": 15,
+    "name": "Đậu xanh",
+    "type": "Rau màu",
+    "planting_date": "20/03/2025",
+    "area": 1.5,
+    "status": "Đang phát triển",
+    "notes": "Trồng xen canh với ngô",
+    "created_at": "2025-03-15 14:15:00"
+  },
+  {
+    "id": 16,
+    "name": "Xoài cát Hòa Lộc",
+    "type": "Cây ăn quả",
+    "planting_date": "25/03/2021",
+    "area": 4.0,
+    "status": "Ra hoa",
+    "notes": "Giống xoài đặc sản miền Tây",
+    "created_at": "2021-03-20 15:30:00"
+  },
+  {
+    "id": 17,
+    "name": "Hồ tiêu",
+    "type": "Cây công nghiệp",
+    "planting_date": "01/04/2019",
+    "area": 3.8,
+    "status": "Thu hoạch",
+    "notes": "Trồng trên trụ sống",
+    "created_at": "2019-03-25 16:45:00"
+  },
+  {
+    "id": 18,
+    "name": "Dưa lưới",
+    "type": "Rau màu",
+    "planting_date": "05/04/2025",
+    "area": 0.5,
+    "status": "Đang phát triển",
+    "notes": "Trồng trong nhà màng",
+    "created_at": "2025-04-01 08:00:00"
+  },
+  {
+    "id": 19,
+    "name": "Cam sành",
+    "type": "Cây ăn quả",
+    "planting_date": "10/04/2022",
+    "area": 3.0,
+    "status": "Ra hoa",
+    "notes": "Giống cam đặc sản miền Tây",
+    "created_at": "2022-04-05 09:15:00"
+  },
+  {
+    "id": 20,
+    "name": "Lạc",
+    "type": "Rau màu",
+    "planting_date": "15/04/2025",
+    "area": 2.2,
+    "status": "Đang phát triển",
+    "notes": "Trồng luân canh với lúa",
+    "created_at": "2025-04-10 10:30:00"
+  }
+]
