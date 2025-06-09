@@ -10,7 +10,6 @@ class InventoryManager:
         self.load_data()
     
     def load_data(self):
-        """Tải dữ liệu kho từ file JSON"""
         try:
             if os.path.exists(self.data_file):
                 with open(self.data_file, "r", encoding="utf-8") as f:
@@ -23,7 +22,6 @@ class InventoryManager:
             self.suppliers = []
     
     def save_data(self):
-        """Lưu dữ liệu kho vào file JSON"""
         try:
             os.makedirs(os.path.dirname(self.data_file), exist_ok=True)
             data = {
@@ -36,8 +34,6 @@ class InventoryManager:
             print(f"Lỗi khi lưu dữ liệu kho: {str(e)}")
     
     def add_item(self, item_data):
-        """Thêm vật tư mới vào kho"""
-        # Validate dữ liệu
         if not all(key in item_data for key in ["name", "quantity", "unit", "unit_price"]):
             raise ValueError("Thiếu thông tin bắt buộc cho vật tư")
         
@@ -47,7 +43,6 @@ class InventoryManager:
         if item_data["unit_price"] <= 0:
             raise ValueError("Đơn giá phải lớn hơn 0")
         
-        # Tạo ID mới
         new_id = max([item["id"] for item in self.inventory], default=0) + 1
         
         item_data["id"] = new_id
@@ -58,10 +53,8 @@ class InventoryManager:
         return item_data
     
     def update_item(self, item_id, update_data):
-        """Cập nhật thông tin vật tư"""
         for item in self.inventory:
             if item["id"] == item_id:
-                # Validate dữ liệu
                 if "quantity" in update_data and update_data["quantity"] <= 0:
                     raise ValueError("Số lượng phải lớn hơn 0")
                 
@@ -70,7 +63,6 @@ class InventoryManager:
                 
                 for key, value in update_data.items():
                     if key == "quantity":
-                        # Khi cập nhật số lượng, tính toán chênh lệch
                         diff = value - item["current_quantity"]
                         item["current_quantity"] = value
                         item["quantity"] = item.get("quantity", 0) + diff
@@ -92,10 +84,8 @@ class InventoryManager:
         except Exception as e:
             print(f"Lỗi khi xóa vật tư: {str(e)}")
             return False
-
-
+    
     def record_usage(self, item_id, quantity, purpose):
-        """Ghi nhận sử dụng vật tư"""
         if quantity <= 0:
             raise ValueError("Số lượng sử dụng phải lớn hơn 0")
         
@@ -117,13 +107,11 @@ class InventoryManager:
         raise ValueError(f"Không tìm thấy vật tư với ID {item_id}")
     
     def search_items(self, keyword, field="name"):
-        """Tìm kiếm vật tư theo từ khóa"""
         keyword = keyword.lower()
         return [item for item in self.inventory 
                 if keyword in str(item.get(field, "")).lower()]
     
     def sort_items(self, sort_by="name", reverse=False):
-        """Sắp xếp vật tư"""
         if sort_by == "name":
             return sorted(self.inventory, key=lambda x: x["name"].lower(), reverse=reverse)
         elif sort_by == "quantity":
@@ -135,41 +123,59 @@ class InventoryManager:
         return self.inventory
     
     def get_low_stock_items(self, threshold=5):
-        """Lấy danh sách vật tư sắp hết hàng"""
         return [item for item in self.inventory if item["current_quantity"] <= threshold]
     
     def get_inventory_value(self):
-        """Tính tổng giá trị hàng tồn kho"""
         return sum(item["current_quantity"] * item["unit_price"] for item in self.inventory)
     
     def add_supplier(self, supplier_data):
-        """Thêm nhà cung cấp mới"""
         if not all(key in supplier_data for key in ["name", "contact"]):
             raise ValueError("Thiếu thông tin bắt buộc cho nhà cung cấp")
         
         new_id = max([s["id"] for s in self.suppliers], default=0) + 1
-        supplier_data["id"] = new_id
-        self.suppliers.append(supplier_data)
+        
+        supplier = {
+            "id": new_id,
+            "name": supplier_data["name"],
+            "contact": supplier_data["contact"],
+            "notes": supplier_data.get("notes", ""),
+            "created_at": datetime.now().strftime("%d/%m/%Y %H:%M")
+        }
+        
+        self.suppliers.append(supplier)
         self.save_data()
-        return supplier_data
-   
+        return supplier
+    
     def delete_supplier(self, supplier_id):
         try:
-            # Đếm số vật tư sẽ bị xóa
-            items_to_delete = [item for item in self.inventory if item.get("supplier") == supplier_id]
-            
-            # Xóa các vật tư liên quan
-            self.inventory = [item for item in self.inventory if item.get("supplier") != supplier_id]
-            
-            # Xóa nhà cung cấp
-            initial_count = len(self.suppliers)
+            related_items = [item for item in self.inventory 
+                           if item.get("supplier") == supplier_id]
+            # Thực sự xóa các vật tư liên quan
+            self.inventory = [item for item in self.inventory 
+                             if item.get("supplier") != supplier_id]
+            initial_supplier_count = len(self.suppliers)
             self.suppliers = [s for s in self.suppliers if s["id"] != supplier_id]
             
-            if len(self.suppliers) < initial_count:
+            if len(self.suppliers) < initial_supplier_count:
+                for index, supplier in enumerate(self.suppliers):
+                    supplier["id"] = index + 1
+                
                 self.save_data()
-                return len(items_to_delete)
+                return len(related_items)  
             return -1
         except Exception as e:
             print(f"Lỗi khi xóa nhà cung cấp: {str(e)}")
             return -1
-                
+        
+    def update_supplier(self, supplier_id, update_data):
+        for i, supplier in enumerate(self.suppliers):
+            if supplier["id"] == supplier_id:
+                self.suppliers[i] = {**supplier, **update_data}
+                for item in self.inventory:
+                    if item.get("supplier") == supplier_id:
+                        item["supplier_name"] = update_data["name"]
+                return True
+        return False
+    
+    def get_supplier_by_id(self, supplier_id):
+        return next((s for s in self.suppliers if s["id"] == supplier_id), None)
